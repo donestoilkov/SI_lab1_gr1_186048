@@ -4,15 +4,27 @@ class Student {
 	String lastName;
         List<Integer> labPoints = new ArrayList<>();
 
-	//TODO constructor
+	public Student(String index,String firstName,String lastName){
+		this.index = index;
+		this.firstName = firstName;
+		this.lastName = lastName;
+}
 
-	//TODO seters & getters
+	String getIndex(void){
+		return this.index;
+}
+	String getFirstName(void){
+		return this.firstName;
+}
+	String getLastName(void){
+		return this.lastName;
+}
 
 	public double getAverage() {
-		//TODO
+		//Ne sum dobar vo rabota so listi.
 	}
 
 	public boolean hasSignature() {
-		//TODO
+		//Ne sum dobar vo rabota si listi.
 	}
 }
