@@ -25,6 +25,6 @@ class Student {
 	}
 
 	public boolean hasSignature() {
-		//Ne sum dobar vo rabota si listi.
+		//Ne sum dobar vo rabota so listi.
 	}
 }
